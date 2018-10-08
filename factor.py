@@ -1,3 +1,5 @@
+# I wrote a short program which factors positive integers
+
 def factor(x):
     breakdown = ""
    # final list of prime numbers
