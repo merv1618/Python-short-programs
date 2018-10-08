@@ -15,3 +15,4 @@ def factor(x):
     if y > x:
         break
     print(breakdown[1:])
+   # removes the unnecessary asterisk
