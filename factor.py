@@ -1,5 +1,4 @@
 def factor(x):
-    import math
     breakdown = "factorization: "
     y = 2
     while y <= x:
