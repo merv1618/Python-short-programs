@@ -1,9 +1,9 @@
 def factor(x):
-    breakdown = "factorization: "
+   breakdown = "factorization: "
     y = 2
     while y <= x:
         if x%y != 0:
-            breakdown = .join(breakdown, str(x/y), "*")
+            breakdown = str.join(breakdown, str(x/y), "*")
             x = x/y
         else:
             y = y + 1
@@ -11,7 +11,7 @@ def factor(x):
         break
     print(breakdown - "*")
 
-
+factor(144)
 # introduce temporary variable y
 # create a string
 # start a while loop
