@@ -3,7 +3,7 @@ def factor(x):
     y = 2
     while y <= x:
         if x%y != 0:
-            breakdown = str.join(breakdown, str(x/y), "*")
+            breakdown = str.join(breakdown, str(y), "*")
             x = x/y
         else:
             y = y + 1
