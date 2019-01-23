@@ -24,4 +24,3 @@ def primecount(x):
             print("The " + str(x) + "rd prime number is " + str(y) + ".")
         else:
             print("The " + str(x) + "th prime number is " + str(y) + ".")
-primecount(8559648)
