@@ -22,9 +22,12 @@ def primecount(x):
 
     return y
 
+
 if __name__ == '__main__':
+    # Get user input for x
     x = int(sys.argv[1])
 
+    # Print the xth prime number
     if 10 % x == 1:
         print("The " + str(x) + "st prime number is " + str(y) + ".")
     elif 10 % x == 2:
